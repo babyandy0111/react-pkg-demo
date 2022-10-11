@@ -1,3 +1,6 @@
+# 建立 react 專案
+- `mkdir react-pkg && cd react-pkg && npm init`
+- 參考以下結構建立file
 
 # 目錄結構介紹
 ```
@@ -42,3 +45,5 @@
 # test
 - `npx create-react-app my-app`
 - `install [pkg name]`
+
+[ref](https://bbs.huaweicloud.com/blogs/366397)
