@@ -3,7 +3,7 @@ const { merge } = require('webpack-merge');
 const baseConfig = require('./webpack.base.js');
 
 const devConfig = {
-    mode: 'development', // 開發
+    mode: 'development',
     entry: path.join(__dirname, "../demo/src/index.jsx"), // 入口，處理資源文件的依賴關係
     output: {
         path: path.join(__dirname, "../demo/src/"),

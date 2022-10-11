@@ -1,3 +1,5 @@
+
+# 目錄結構介紹
 ```
 ├── config  # webpack設定
     ├── webpack.base.js # 公用設定
@@ -19,3 +21,11 @@
 ├── package-lock.json
 └── package.json
 ```
+
+
+# 安裝依賴
+- 安裝React相關 `npm i react react-dom -D`
+- 安裝webpack相關 `npm i webpack webpack-cli webpack-dev-server webpack-merge -D`
+- 安裝css相關 `npm i postcss postcss-loader postcss-preset-env style-loader css-loader sass-loader node-sass mini-css-extract-plugin -D`
+- 安裝babel相關 `npm i @babel/cli @babel/core @babel/preset-env @babel/preset-react babel-loader -D`
+- 安裝ts相關 `npm i @types/react @types/react-dom ts-loader @babel/preset-typescript -D`
