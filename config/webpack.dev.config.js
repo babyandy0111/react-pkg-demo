@@ -55,8 +55,8 @@ const devConfig = {
         static: path.join(__dirname, '../demo/src/'),
         compress: true,
         host: '127.0.0.1',
-        port: 8080, // 啟動的port號
-        open: true // 打開瀏覽器
+        port: 8080,
+        open: true
     },
 };
 module.exports = merge(devConfig, baseConfig);

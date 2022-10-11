@@ -10,11 +10,11 @@
         ├── index.jsx # 入口 jsx 文件
         ├── index.html # 入口 html 文件
         └── index.scss # 樣式
-├── lib # build 结果
 ├── node_modules # 安裝依賴自動生成
 ├── src # 主要開發目錄
     └── index.tsx  # 源碼
 ├── .babelrc # babel 設定
+├── index.js # build 的結果入口
 ├── .gitignore 
 ├── .npmignore # 指定發布 npm 的時候须要忽略的文件和文件夹
 ├── README.md
@@ -32,11 +32,13 @@
 
 
 # 撰寫源碼
-
+編輯 src底下的index.tsx
 
 # 部署你的pkg
 - `npm adduser`
 - `npm publish`
+- 每次部署時記得版本號碼
 
 # test
 - `npx create-react-app my-app`
+- `install [pkg name]`

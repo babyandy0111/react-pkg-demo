@@ -6,21 +6,7 @@ import './index.scss';
 const App = () => {
     return (
         <div className="container">
-            <div className="text">
-                <p>示例文本：</p><p>文本宽度自适应标签组件</p>
-            </div>
-            <div className="normal">
-                <p>宽度100px：</p><p>文本宽度自适应标签组件</p>
-            </div>
-            <div className="style1">
-                <p>宽度100px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
-            </div>
-            <div className="style2">
-                <p>宽度80px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
-            </div>
-            <div className="style3">
-                <p>宽度50px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
-            </div>
+            <WidthAutoLabel/>
         </div>
     );
 }
