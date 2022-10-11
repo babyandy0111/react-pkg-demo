@@ -29,3 +29,14 @@
 - 安裝css相關 `npm i postcss postcss-loader postcss-preset-env style-loader css-loader sass-loader node-sass mini-css-extract-plugin -D`
 - 安裝babel相關 `npm i @babel/cli @babel/core @babel/preset-env @babel/preset-react babel-loader -D`
 - 安裝ts相關 `npm i @types/react @types/react-dom ts-loader @babel/preset-typescript -D`
+
+
+# 撰寫源碼
+
+
+# 部署你的pkg
+- `npm adduser`
+- `npm publish`
+
+# test
+- `npx create-react-app my-app`
